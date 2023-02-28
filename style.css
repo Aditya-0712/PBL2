@@ -1,0 +1,9 @@
+body 
+{
+    display:block;
+    width:100%;
+    height:1000px;
+    margin:0;
+    /* background-image: linear-gradient(#212121,#323232,#0D7377,#14FFEC); */
+    background-color: #14274E;
+}
