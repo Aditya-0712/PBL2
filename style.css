@@ -76,7 +76,7 @@ body
 {
     display:flex;
     width:100%;
-    height:60px;
+    height:auto;
     margin:0;
     background-color: #2D033B;
     bottom:0;
@@ -91,4 +91,27 @@ body
     width:auto;
     margin:auto;
     cursor:pointer;
+    padding: 10px;
+}
+
+.part1 
+{
+    display:block;
+    width:100%;
+    height:300px;
+    margin:0;
+    padding-top:54px;
+    background-color: #865DFF;
+    border-radius:0px 0px 50px 50px;
+}
+
+.title 
+{
+    display:black;
+    width:auto;
+    height:auto;
+    margin:50px auto 0px 30px;
+    font-size:40px;
+    font-family:coolvetica;
+    color:white;
 }
