@@ -218,9 +218,12 @@ body
     border:none;
     border-radius:50px 0px 0px 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size:20px;
+    color:black;
+    font-family: coco;
 }
 
-.searchbar input::placeholder , .searchbar input p
+.searchbar input::placeholder
 {
     font-size:15px;
     position:relative;
