@@ -190,8 +190,8 @@ body
 .p1user img 
 {
     display:flex;
-    width:50px;
+    width:40px;
     height:auto;
-    margin:auto auto auto 5px;
+    margin:auto auto auto 0px;
     transform: translateY(-5px);
 }
