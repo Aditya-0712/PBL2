@@ -28,7 +28,7 @@ body
     margin:auto;
     font-size:45px;
     font-family:bebas;
-    color:#6F1AB6;
+    color:#FF0000;
 }
 
 .ham 
@@ -45,7 +45,7 @@ body
     display:block;
     width:30px;
     height:4px;
-    background-color: #FF0000;
+    background-color: #9400ff;
     margin:5px auto auto auto;
 }
 
@@ -57,7 +57,7 @@ body
 .topbar svg 
 {
     display:flex;
-    height:32px;
+    height:40px;
     width:auto;
     margin:auto 10px auto auto;
     cursor: pointer;
