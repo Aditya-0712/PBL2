@@ -31,27 +31,54 @@ body
     color:#FF0000;
 }
 
-.ham 
+.ham , .hamopen
 {
     display: block;
     width:50px;
     height:auto;
     margin:auto auto auto 10px;
     cursor: pointer;
+    overflow:hidden;
+    transition: 0.5s;
 }
 
-.ham .bar1 , .ham .bar2 , .ham .bar3
+.hamopen 
+{
+    transform:translateX(250px);
+    transition: 0.5s;
+}
+
+.ham .bar1 , .ham .bar2 , .ham .bar3 , .hamopen .bar1 , .hamopen .bar2 , .hamopen .bar3
 {
     display:block;
     width:30px;
     height:4px;
     background-color: #9400ff;
     margin:5px auto auto auto;
+    transition: 0.5s;
 }
 
-.ham .bar3
+.ham .bar3, .hamopen .bar3
 {
     margin-bottom: 5px;
+}
+
+.hamopen .bar1
+{
+    transform:translateY(9px) rotate(45deg);
+    transition: 0.5s;
+}
+
+.hamopen .bar2
+{
+    transform: translateX(-50px);
+    transition: 0.5s;
+}
+
+.hamopen .bar3
+{
+    transform:translateY(-9px) rotate(-45deg);
+    transition: 0.5s;
 }
 
 .topbar svg 
@@ -61,6 +88,27 @@ body
     width:auto;
     margin:auto 10px auto auto;
     cursor: pointer;
+}
+
+.sidebar , .sideopen
+{
+    display:block;
+    height:100%;
+    width:0px;
+    margin:0;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position: fixed;
+    z-index: 2;
+    border-radius:0px 20px 20px 0px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.sideopen 
+{
+    width: 250px;
+    transition: 0.5s;
 }
 
 .bottombar
