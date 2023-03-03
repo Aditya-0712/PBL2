@@ -142,7 +142,7 @@ body
     padding-top: 54px;
 }
 
-.part1 div 
+.part1 .frame 
 {
     display:block;
     width:100%;
@@ -151,4 +151,47 @@ body
     background-image: url(p1bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.p1title 
+{
+    display:flex;
+    width: auto;
+    height:auto;
+    margin:0px auto 0px 30px;
+    font-size:23px;
+    font-family:coco;
+    color:black;
+    padding-top: 40px;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.p1user 
+{
+    display:flex;
+    width:100%;
+    height:auto;
+    margin:20px 0px 0px 0px;
+}
+
+.p1user p
+{
+    display:flex;
+    width:auto;
+    height: auto;
+    margin:0px auto 0px 30px;
+    font-size:40px;
+    font-family:coco;
+    color:black;
+    background-image: none;
+    /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black; */
+}
+
+.p1user img 
+{
+    display:flex;
+    width:50px;
+    height:auto;
+    margin:auto auto auto 5px;
+    transform: translateY(-5px);
 }
