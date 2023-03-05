@@ -215,7 +215,7 @@ body
 .searchbar input 
 {
     display:flex;
-    width:300px;
+    width:270px;
     height:50px;
     background-color: rgba(255, 255, 255, 0.5);
     border:none;
@@ -250,6 +250,35 @@ body
     padding: 8px;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.trend 
+{
+    display:flex;
+    width:100%;
+    height:auto;
+    margin:40px 0px 0px 0px;
+}
+
+.trend p 
+{
+    display:flex;
+    width:auto;
+    height:auto;
+    font-size:22px;
+    font-family:coco;
+    margin:auto auto auto 30px;
+    transform: translateY(2px);
+}
+
+.trend svg 
+{
+    display:flex;
+    width:20px;
+    height:auto;
+    margin:auto 20px auto auto;
+    cursor: pointer;
+    padding:5px;
 }
 
 .part2 
