@@ -156,7 +156,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     overflow-x: scroll;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: white;
 }
 
 .p1title 
@@ -342,5 +342,5 @@ body
     background-image: url(p2bg180.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: white;
 }
