@@ -30,9 +30,12 @@ body
     margin:auto;
     font-size:45px;
     font-family:bebas;
-    color:#FF0000;
+    /* color:#FF0000; */
     position: relative;
     top:2px;
+    background: -webkit-linear-gradient(right, #0fd850 0%, #f9f047 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .ham , .hamopen
@@ -132,7 +135,7 @@ body
 .opt
 {
     display:block;
-    width:100%;
+    width:250px;
     height:auto;
     margin:0;
     font-size:25px;
@@ -380,4 +383,4 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-color: white; */
-}
+} 
