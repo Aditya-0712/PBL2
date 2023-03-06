@@ -245,6 +245,7 @@ body
 .searchbar input:focus
 {
     background-color: rgba(0, 0, 0, 0.6);
+    outline: none;
 }
 
 .searchbar svg 
@@ -305,7 +306,6 @@ body
     width:auto;
     height:auto;
     margin:0px 20px 0px 20px;
-    cursor: pointer;
 }
 
 .blok img 
@@ -316,6 +316,7 @@ body
     margin:auto;
     border-radius:20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
 }
 
 .blok .ssp1 
