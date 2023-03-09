@@ -5,3 +5,27 @@ obj1.onclick = function()
     obj1.classList.toggle("hamopen");
     obj2.classList.toggle("sideopen");
 }
+
+document.getElementById("heart").onclick = function()
+{
+    if (document.getElementById("heart").style.fill=="red")
+    {
+        document.getElementById("heart").style.fill="white";
+    }
+    else 
+    {
+        document.getElementById("heart").style.fill="red";
+    }
+}
+
+document.getElementById("heart1").onclick = function()
+{
+    if (document.getElementById("heart1").style.fill=="red")
+    {
+        document.getElementById("heart1").style.fill="white";
+    }
+    else 
+    {
+        document.getElementById("heart1").style.fill="red";
+    }
+}
