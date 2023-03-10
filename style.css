@@ -5,7 +5,7 @@ body
     height:auto;
     margin:0;
     /* background-color: #060047; */
-    background-color: #03001C;
+    background-color: #212121;
     font-size: 0px;
     /* background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%); */
 }
@@ -16,7 +16,7 @@ body
     width: 100%;
     height:54px;
     margin:0;
-    background-color: #251D3A;
+    background-color: #323232;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.19), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
     z-index: 1;
@@ -61,7 +61,7 @@ body
     display:block;
     width:30px;
     height:4px;
-    background-color: #9400ff;
+    background-color: #14FFEC;
     margin:5px auto auto auto;
     transition: 0.5s;
 }
@@ -104,7 +104,7 @@ body
     height:100%;
     width:0px;
     margin:0;
-    background-color: #251d3ab7;
+    background-color: #0d74777e;
     backdrop-filter: blur(8px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: fixed;
@@ -155,7 +155,7 @@ body
     width:100%;
     height:auto;
     margin:0;
-    background-color: #251D3A;
+    background-color: #323232;
     bottom:0;
     position: fixed;
     z-index: 1;
@@ -255,12 +255,12 @@ body
     display:flex;
     width:270px;
     height:50px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #0D7377;
     border:none;
     border-radius:50px 0px 0px 50px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     font-size:20px;
-    color:white;
+    color:#14FFEC;
     font-family: coco;
 }
 
@@ -270,7 +270,7 @@ body
     position:relative;
     left:20px;
     font-family: coco;
-    color:rgba(255, 255, 255, 0.5);
+    color:#14FFEC;
 }
 
 .searchbar input:focus
@@ -285,7 +285,7 @@ body
     margin:auto auto auto 0px;
     width:36px;
     height:auto;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #0D7377;
     border-radius: 0px 50px 50px 0px;
     padding: 8px;
     cursor: pointer;

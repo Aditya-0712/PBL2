@@ -10,7 +10,7 @@ document.getElementById("heart").onclick = function()
 {
     if (document.getElementById("heart").style.fill=="red")
     {
-        document.getElementById("heart").style.fill="white";
+        document.getElementById("heart").style.fill="#14FFEC";
     }
     else 
     {
@@ -22,7 +22,7 @@ document.getElementById("heart1").onclick = function()
 {
     if (document.getElementById("heart1").style.fill=="red")
     {
-        document.getElementById("heart1").style.fill="white";
+        document.getElementById("heart1").style.fill="#14FFEC";
     }
     else 
     {
