@@ -164,7 +164,7 @@ body
 .home , .acc , .settings , .chat
 {
     display:flex;
-    height:35px;
+    height:31px;
     width:auto;
     margin:auto;
     cursor:pointer;
