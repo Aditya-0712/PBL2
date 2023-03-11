@@ -29,3 +29,15 @@ document.getElementById("heart1").onclick = function()
         document.getElementById("heart1").style.fill="red";
     }
 }
+
+document.getElementById("heart2").onclick = function()
+{
+    if (document.getElementById("heart2").style.fill=="red")
+    {
+        document.getElementById("heart2").style.fill="#14FFEC";
+    }
+    else 
+    {
+        document.getElementById("heart2").style.fill="red";
+    }
+}

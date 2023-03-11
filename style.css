@@ -92,7 +92,7 @@ body
 .topbar svg , .topbar img
 {
     display:flex;
-    height:40px;
+    height:35px;
     width:auto;
     margin:auto 10px auto auto;
     cursor: pointer;
@@ -159,6 +159,7 @@ body
     bottom:0;
     position: fixed;
     z-index: 1;
+    border-top: 1px solid #0D7377;
 }
 
 .home , .acc , .settings , .chat
@@ -376,7 +377,7 @@ body
 {
     display:block;
     width:100%;
-    height:1500px;
+    height:2500px;
     margin:0;
     /* background-image: url(p2bg180.png);
     background-repeat: no-repeat;
@@ -418,7 +419,7 @@ body
     display:block;
     width:100%;
     height:auto;
-    margin:40px 0px 0px 0px;
+    margin:60px 0px 0px 0px;
 }
 
 .post img
@@ -431,7 +432,7 @@ body
     border-radius: 5px;
 }
 
-.post div 
+.post .features 
 {
     display:flex;
     width:fit-content;
@@ -455,4 +456,35 @@ body
     height:30px;
     margin:auto auto auto 180px;
     cursor: pointer;
+}
+
+.post .btns
+{
+    display:flex;
+    width:fit-content;
+    height:auto;
+    margin:20px auto 0px auto;
+}
+
+.btns .btn1 , .btns .btn2
+{
+    display:flex;
+    width:auto;
+    height:auto;
+    margin:0;
+    font-size:20px;
+    font-family: coco;
+    color:white;
+    cursor: pointer;
+    padding:10px 20px 10px 20px;
+    background-image:linear-gradient(to right, #FEC163 0%, #DE4313 100%);
+    box-shadow: 0 4px 8px 0 #fec0634a, 0 6px 20px 0 #de42134e;
+    border-radius: 50px;
+}
+
+.btns .btn2 
+{
+    margin:0px 0px 0px 50px;
+    background-image:linear-gradient(to right, #81FBB8 0%, #28C76F 100%);
+    box-shadow: 0 4px 8px 0 #81fbb84f, 0 6px 20px 0 #28c76f54;
 }
