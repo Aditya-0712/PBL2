@@ -41,3 +41,10 @@ document.getElementById("heart2").onclick = function()
         document.getElementById("heart2").style.fill="red";
     }
 }
+
+var obj3 = document.getElementById("filter");
+var obj4 = document.getElementById("dup");
+obj3.onclick = function ()
+{
+    obj4.classList.toggle("ddown");
+}
