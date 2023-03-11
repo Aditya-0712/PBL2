@@ -110,7 +110,8 @@ body
     position: fixed;
     z-index: 2;
     border-radius:0px 20px 20px 0px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     transition: 0.5s;
 }
 
@@ -126,10 +127,13 @@ body
     width:250px;
     height:auto;
     margin:30px 0px 0px 0px;
-    font-size:30px;
-    font-family: coco;
+    font-size:50px;
+    font-family: bebas;
     color:white;
     text-align: center;
+    background: -webkit-linear-gradient(right, #d8690f 0%, #f94747 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .opt
@@ -137,16 +141,17 @@ body
     display:block;
     width:250px;
     height:auto;
-    margin:0;
+    margin:0px 0px 20px 0px;
     font-size:25px;
     font-family: coco;
-    color:white;
+    color:#14FFEC;
     text-align: center;
     cursor: pointer;
     border-top: 1px solid black;
+    border-bottom: 1px solid black;
     padding-top: 15px;
     padding-bottom: 15px;
-    /* background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%); */
+    background-image: linear-gradient(to right, #212121 0%, #323232  100%);
 }
 
 .bottombar
