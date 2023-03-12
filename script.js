@@ -27,6 +27,8 @@ obj3.onclick = function ()
     obj4.classList.toggle("ddown");
 }
 
+var obj5 = document.getElementById("popup");
+
 function save(id)
 {
     if (id.style.fill != "white")
@@ -34,8 +36,12 @@ function save(id)
         id.innerHTML = "<path d='M0 48V487.7C0 501.1 10.9 512 24.3 512c5 0 9.9-1.5 14-4.4L192 400 345.7 507.6c4.1 2.9 9 4.4 14 4.4c13.4 0 24.3-10.9 24.3-24.3V48c0-26.5-21.5-48-48-48H48C21.5 0 0 21.5 0 48z'/>";
 
         id.style.fill="white";
-
-        window.alert("Bookmark Added");
+        
+        obj5.innerHTML = "<p>Bookmark Added</p>";
+        obj5.style.height = "100%";
+        setTimeout (() => {
+            obj5.style.height = "0";
+        }, 1000);
     }
     else 
     {
@@ -43,6 +49,10 @@ function save(id)
 
         id.style.fill="#14FFEC";
 
-        window.alert("Bookmark Removed");
+        obj5.innerHTML = "<p>Bookmark Removed</p>";
+        obj5.style.height = "100%";
+        setTimeout (() => {
+            obj5.style.height = "0";
+        }, 1000);
     }
 }
