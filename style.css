@@ -293,7 +293,7 @@ body
     transform: translateY(-2px);
 }
 
-.searchbar 
+.searchbar , .searchbarpc
 {
     display:flex;
     width:100%;
@@ -301,12 +301,12 @@ body
     margin:30px 0px 0px 0px;
 }
 
-.searchbar form 
+.searchbar form , .searchbarpc form
 {
     margin:auto 0px auto auto;
 }
 
-.searchbar input 
+.searchbar input , .searchbarpc input
 {
     display:flex;
     width:270px;
@@ -320,7 +320,7 @@ body
     font-family: coco;
 }
 
-.searchbar input::placeholder
+.searchbar input::placeholder , .searchbarpc input::placeholder
 {
     font-size:15px;
     position:relative;
@@ -329,13 +329,13 @@ body
     color:#14FFEC;
 }
 
-.searchbar input:focus
+.searchbar input:focus , .searchbarpc input:focus
 {
     background-color: rgba(255, 255, 255, 0.3);
     outline: none;
 }
 
-.searchbar svg 
+.searchbar svg , .searchbarpc svg
 {
     display:flex;
     margin:auto auto auto 0px;
@@ -542,4 +542,124 @@ body
     margin:0px 0px 0px 50px;
     background-image:linear-gradient(to right, #81FBB8 0%, #28C76F 100%);
     box-shadow: 0 4px 8px 0 #81fbb84f, 0 6px 20px 0 #28c76f54;
+}
+
+.pctop 
+{
+    display: none;
+}
+
+@media screen and (min-width:850px)
+{
+    .topbar , .part1 , .part2 , .bottombar
+    {
+        display: none;
+    }
+
+    .pctop
+    {
+        display:flex;
+        width:100%;
+        height:80px;
+        margin:0;
+        padding-top: 20px;
+        /* background-color: #323232; */
+    }
+
+    .pctop p 
+    {
+        display: flex;
+        width:auto;
+        height:auto;
+        font-size:60px;
+        font-family: bebas;
+        margin:auto auto auto 30px;
+        background: -webkit-linear-gradient(right, #0fd850 0%, #f9f047 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .searchbarpc
+    {
+        margin:auto;
+    }
+
+    .searchbarpc input
+    {
+        width:400px;
+        height: 40px;
+    }
+
+    .searchbarpc svg 
+    {
+        width:26px;
+    }
+
+    .pcacc , .gear
+    {
+        display:flex;
+        width:45px;
+        height:auto;
+        margin:auto 30px auto auto;
+        cursor: pointer;
+        fill:#14FFEC;
+        stroke: #0D7377;
+        stroke-width: 30px;
+    }
+
+    .pcpart1
+    {
+        display:flex;
+        width:100%;
+        height:auto;
+        margin:0;
+    }
+
+    .spanel
+    {
+        display:flex;
+        flex-direction: column;
+        width:300px;
+        height:500px;
+        background-color:#323232;
+    }
+
+    .spanel .pcopt
+    {
+        display: flex;
+        width:100%;
+        height:auto;
+        margin:10px 0px 10px 0px;
+        cursor: pointer;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .pcopt svg 
+    {
+        display:flex;
+        width:35px;
+        height:auto;
+        margin:auto 10px auto auto;
+        position: relative;
+        bottom: 3px;
+        fill:#14FFEC;
+        stroke:#0D7377;
+        stroke-width: 25px;
+    }
+
+    .pcopt p
+    {
+        display:flex;
+        width:auto;
+        height:auto;
+        font-size: 25px;
+        font-family: coco;
+        color:white;
+        margin: auto auto auto 10px;
+    }
+
+    .pcopt:hover
+    {
+        background-color: #212121;
+    }
 }
