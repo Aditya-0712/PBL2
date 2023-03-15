@@ -544,7 +544,7 @@ body
     box-shadow: 0 4px 8px 0 #81fbb84f, 0 6px 20px 0 #28c76f54;
 }
 
-.pctop 
+.pctop , .pcpart1
 {
     display: none;
 }
