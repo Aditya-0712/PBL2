@@ -573,7 +573,7 @@ body
         height:auto;
         font-size:60px;
         font-family: bebas;
-        margin:auto auto auto 30px;
+        margin:auto auto auto 40px;
         background: -webkit-linear-gradient(right, #0fd850 0%, #f9f047 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -612,15 +612,15 @@ body
         display:flex;
         width:100%;
         height:auto;
-        margin:0;
+        margin:20px 0px 0px 0px;
     }
 
     .spanel
     {
         display:flex;
         flex-direction: column;
-        width:300px;
-        height:500px;
+        width:270px;
+        height:auto;
         background-color:#323232;
     }
 
@@ -652,14 +652,63 @@ body
         display:flex;
         width:auto;
         height:auto;
-        font-size: 25px;
+        font-size: 20px;
         font-family: coco;
         color:white;
-        margin: auto auto auto 10px;
+        margin: auto auto auto 0px;
     }
 
     .pcopt:hover
     {
         background-color: #212121;
+    }
+
+    .pcpart1 .mainpcp1
+    {
+        display: flex;
+        flex-direction:column;
+        width:fit-content;
+        height: auto;
+        margin:0px auto 0px 0px;
+    }
+
+    .pcp1head
+    {
+        display: flex;
+        width:fit-content;
+        height: auto;
+        margin:0;
+        padding:10px 10px 10px 30px;
+        cursor: pointer;
+    }
+
+    .pcp1head p
+    {
+        display: flex;
+        width:auto;
+        height:auto;
+        font-size:20px;
+        font-family: coco;
+        color:white;
+        margin:0;
+    }
+
+    .pcp1head svg 
+    {
+        display: flex;
+        width:30px;
+        height: 30px;
+        margin:auto auto auto 30px;
+        fill:#14FFEC;
+        stroke:#0D7377;
+        stroke-width:25px;
+        position: relative;
+        bottom: 3px;
+    }
+
+    .pcp1head:hover
+    {
+        background-color:#0D7377;
+        border-radius: 5px;
     }
 }
