@@ -544,7 +544,7 @@ body
     box-shadow: 0 4px 8px 0 #81fbb84f, 0 6px 20px 0 #28c76f54;
 }
 
-.pctop , .pcpart1
+.pctop , .pcpart1 , .pcall
 {
     display: none;
 }
@@ -573,7 +573,7 @@ body
         height:auto;
         font-size:60px;
         font-family: bebas;
-        margin:auto auto auto 40px;
+        margin:auto auto auto 20px;
         background: -webkit-linear-gradient(right, #0fd850 0%, #f9f047 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -620,8 +620,9 @@ body
         display:flex;
         flex-direction: column;
         width:270px;
-        height:auto;
+        height:560px;
         background-color:#323232;
+        margin:0px 0px auto 0px;
     }
 
     .spanel .pcopt
@@ -667,8 +668,8 @@ body
     {
         display: flex;
         flex-direction:column;
-        width:fit-content;
-        height: auto;
+        width:100%;
+        height:auto;
         margin:0px auto 0px 0px;
     }
 
@@ -710,5 +711,81 @@ body
     {
         background-color:#0D7377;
         border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
+
+    .pcall 
+    {
+        display: flex;
+        width:100%;
+        height: auto;
+        margin: 0;
+    }
+
+    .pcpost
+    {
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        height: auto;
+        margin:30px 20px 0px 30px;
+    }
+
+    .pcpost img 
+    {
+        display: flex;
+        width:250px;
+        height:350px;
+        margin:0;
+        border: 1px solid #0D7377;
+        border-radius: 5px;
+    }
+
+    .pcpost .pcfeat
+    {
+        display: flex;
+        width:fit-content;
+        height: auto;
+        margin:10px 0px 0px 0px;
+    }
+
+    .pcpost .R_icon , .pcpost .L_icon
+    {
+        display: flex;
+        width:25px;
+        height:25px;
+        margin:0px 0px 0px 10px;
+        cursor: pointer;
+        fill:#14FFEC;
+    }
+
+    .pcpost .L_icon
+    {
+        margin:0px 0px 0px 127px;
+    }
+
+    .pcpost .pcdet 
+    {
+        display: flex;
+        width:fit-content;
+        height: auto;
+        margin:20px auto 0px auto;
+        font-size: 20px;
+        font-family: coco;
+        color:white;
+        cursor: pointer;
+        border-radius: 50px;
+        padding: 5px 15px 5px 15px;
+        background-image:linear-gradient(to right, #FEC163 0%, #DE4313 100%);
+        box-shadow: 0 4px 8px 0 #fec0634a, 0 6px 20px 0 #de42134e;
+        transition: 0.2s;
+    }
+
+    .pcdet:hover
+    {
+        transform: translate3d(5px,5px,5px);
+        background-image:linear-gradient(to right, #81FBB8 0%, #28C76F 100%);
+        box-shadow: 0 4px 8px 0 #81fbb84f, 0 6px 20px 0 #28c76f54;
+        transition: 0.2s;
+    } 
 }
