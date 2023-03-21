@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Eventhub | Chat</title>
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="Chatstyle.css">
+        <link rel="stylesheet" href="font.css">
+    </head>
+    <body>
+        <div class="topbar">
+            <a href="index.html" class="back">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512">
+                    <path d="M9.4 278.6c-12.5-12.5-12.5-32.8 0-45.3l128-128c9.2-9.2 22.9-11.9 34.9-6.9s19.8 16.6 19.8 29.6l0 256c0 12.9-7.8 24.6-19.8 29.6s-25.7 2.2-34.9-6.9l-128-128z"/>
+                </svg>
+            </a>
+            <div class="online">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"/>
+                </svg>
+                <p>Eventhub Officials</p>
+                <img src="tick.png">
+            </div>
+        </div>
+
+        <div class="chatbox" id="chatbox">
+            <p class="texts" style="margin:5px auto 5px 10px;background-color: #0D7377;">Hello There!!</p>
+            <p class="texts" style="margin:5px auto 5px 10px;background-color: #0D7377;">How can I help you?</p>
+        </div>
+
+        <form name="form" autocomplete="off" onsubmit="messege();return false">
+            <input type="text" name="input" class="input" placeholder="Type here ....">
+            <input type="submit" name="sub" class="sub" value="Send">
+        </form>
+
+        <script src="Chatscript.js"></script>
+    </body>
+</html>
