@@ -147,6 +147,7 @@ form
     background-color: #323232;
     border-radius: 5px;
     max-width: 300px;
+    word-wrap: break-word;
 }
 
 @media screen and (min-width:700px)
