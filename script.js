@@ -56,3 +56,29 @@ function save(id)
         }, 1000);
     }
 }
+
+var filter = document.getElementsByClassName("pcp1head")[0];
+var row = document.getElementsByClassName("row")[0];
+var caret = filter.getElementsByTagName("svg")[0];
+var selected_filter = row.getElementsByTagName("p")[0];
+
+row.onclick = function()
+{
+    if (filter.style.height != "auto")
+    {
+        filter.style.height = "auto";
+        caret.style.transform = "rotate(180deg)";
+    }
+    else 
+    {
+        filter.style.height = "50px";
+        caret.style.transform = "none";
+    }
+}
+
+function FilterSelect(id)
+{
+    selected_filter.innerHTML = id.innerHTML;
+    filter.style.height = "50px";
+    caret.style.transform = "none";
+}
