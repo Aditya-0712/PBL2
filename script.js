@@ -92,3 +92,10 @@ function FilterSelect(id)
         row_of_posts[2].innerHTML = temp;
     }
 }
+
+var share = document.getElementById("share");
+
+function send()
+{
+    share.classList.toggle("shareopen");
+}
