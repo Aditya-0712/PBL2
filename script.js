@@ -76,9 +76,19 @@ row.onclick = function()
     }
 }
 
+var posts = document.querySelectorAll(".pcpost");
+var row_of_posts = document.querySelectorAll(".pcall");
+
 function FilterSelect(id)
 {
     selected_filter.innerHTML = id.innerHTML;
     filter.style.height = "50px";
     caret.style.transform = "none";
+
+    if (selected_filter.innerHTML != "Your Interests")
+    {
+        var temp = row_of_posts[0].innerHTML;
+        row_of_posts[0].innerHTML = row_of_posts[2].innerHTML;
+        row_of_posts[2].innerHTML = temp;
+    }
 }
