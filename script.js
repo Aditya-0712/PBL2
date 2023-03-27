@@ -94,6 +94,18 @@ function FilterSelect(id)
 }
 
 var share = document.getElementById("share");
+var cross = document.querySelectorAll(".share .cross")[0];
+var lnk = document.querySelectorAll(".share .copy")[0];
+
+cross.onclick = function()
+{
+    share.classList.toggle("shareopen");
+}
+
+lnk.onclick = function()
+{
+    share.classList.toggle("shareopen");
+}
 
 function send()
 {
