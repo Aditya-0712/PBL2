@@ -131,9 +131,19 @@ selected_mob.onclick = function()
     }
 }
 
+var mobscroll = document.getElementsByClassName("post");
+
 function mobselect(id)
 {
     confirm.innerHTML = id.innerHTML;
     p2div1.style.height = "37px";
     caret_down.style.transform = "none";
+
+    var temp1 = mobscroll[0].innerHTML;
+    mobscroll[0].innerHTML = mobscroll[4].innerHTML;
+    mobscroll[4].innerHTML = temp1;
+
+    var temp2 = mobscroll[1].innerHTML;
+    mobscroll[1].innerHTML = mobscroll[6].innerHTML;
+    mobscroll[6].innerHTML = temp2;
 }
