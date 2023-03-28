@@ -111,3 +111,29 @@ function send()
 {
     share.classList.toggle("shareopen");
 }
+
+var selected_mob = document.getElementsByClassName("mobcat")[0];
+var confirm = document.querySelectorAll(".mobcat p")[0];
+var p2div1 = document.querySelectorAll(".p2div1")[0];
+var caret_down = document.querySelectorAll(".mobcat svg")[0];
+
+selected_mob.onclick = function()
+{
+    if (p2div1.style.height != "auto")
+    {
+        p2div1.style.height = "auto";
+        caret_down.style.transform = "rotate(180deg)";
+    }
+    else 
+    {
+        p2div1.style.height = "37px";
+        caret_down.style.transform = "none";
+    }
+}
+
+function mobselect(id)
+{
+    confirm.innerHTML = id.innerHTML;
+    p2div1.style.height = "37px";
+    caret_down.style.transform = "none";
+}
