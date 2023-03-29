@@ -147,3 +147,16 @@ function mobselect(id)
     mobscroll[1].innerHTML = mobscroll[6].innerHTML;
     mobscroll[6].innerHTML = temp2;
 }
+
+var add = document.getElementsByClassName("add")[0];
+var hover = document.getElementsByClassName("hover")[0];
+
+add.onmouseover = function()
+{
+    hover.style.visibility = "visible";
+}
+
+add.onmouseout = function()
+{
+    hover.style.visibility = "hidden";
+}

@@ -641,7 +641,39 @@ body
         fill:#14FFEC;
     }
 
-.pctop , .pcpart1 , .pcall
+
+.add 
+{
+    display:block;
+    width:auto;
+    height:auto;
+    margin:0;
+    position:fixed;
+    z-index: 1;
+    cursor: pointer;
+    bottom:60px;
+    right:20px;
+}
+
+.add svg:hover 
+{
+    border-radius:0px 0px 50px 50px;
+}
+
+.add svg 
+{
+    display:block;
+    width:30px;
+    height:30px;
+    margin:0;
+    fill:#14FFEC;
+    background-color:#323232;
+    border-radius: 50px;
+    padding:10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+    
+.pctop , .pcpart1 , .pcall , .hover
 {
     display: none;
 }
@@ -921,5 +953,31 @@ body
     .share .linq , .shareopen .linq
     {
         font-size: 30px;
+    }
+
+    .add 
+    {
+        right:10px;
+        bottom:10px;
+    }
+
+    .hover
+    {
+        display:block;
+        width:auto;
+        height:auto;
+        margin:0;
+        position: fixed;
+        bottom:60px;
+        right:10px;
+        font-size:20px;
+        font-family: coco;
+        color:white;
+        background-color: #323232;
+        padding:5px;
+        transition: 0.3s;
+        visibility: hidden;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px 5px 0px 5px;
     }
 }
