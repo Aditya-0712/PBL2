@@ -200,3 +200,23 @@ seemore.onclick = function()
         sm_ob2.style.transform = "none";
     }
 }
+
+var tags = document.querySelectorAll(".tags p");
+
+function tag_selected(id)
+{
+    id.style.color = "#0D7377";
+    id.style.backgroundColor = "#14FFEC";
+
+    for (var i=0;i<tags.length;i++)
+    {
+        if (tags[i].style.color != "white")
+        {
+            if (tags[i] != id)
+            {
+                tags[i].style.backgroundColor = "#0D7377";
+                tags[i].style.color = "white";
+            }
+        }
+    }
+}

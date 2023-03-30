@@ -673,7 +673,7 @@ body
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
     
-.pctop , .pcpart1 , .pcall , .hover
+.pctop , .pcpart1 , .pcall , .hover , .pcpart2
 {
     display: none;
 }
@@ -799,7 +799,7 @@ body
         flex-direction:column;
         width:100%;
         height:auto;
-        margin:0px auto 100px 0px;
+        margin:0px auto 40px 0px;
     }
 
     .pcp1head
@@ -1016,4 +1016,43 @@ body
         fill:rgba(0, 0, 0, 0.5);
         transform: none;
     } 
+
+    .pcpart2 
+    {
+        display:block;
+        height:auto;
+        width: 100%;
+        margin:0px 0px 100px 0px;
+    }
+
+    .tags 
+    {
+        display:flex;
+        width:100%;
+        height:auto;
+        margin:0;
+    }
+
+    .tags p
+    {
+        display:flex;
+        width:auto;
+        height:auto;
+        margin:0px auto 0px auto;
+        font-size:15px;
+        font-family: coco;
+        color:white;
+        border:1px solid #14FFEC;
+        border-radius:50px;
+        padding: 5px 10px 5px 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color:#0D7377;
+        cursor: pointer;
+    }
+
+    .tags p:hover 
+    {
+        background-color: #14FFEC;
+        color:#0D7377;
+    }
 }
