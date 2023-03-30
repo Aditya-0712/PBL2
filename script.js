@@ -175,12 +175,14 @@ seemore.onmouseover = function()
 {
     sm_ob1.style.color = "black";
     sm_ob2.style.fill = "black";
+    seemore.style.backgroundImage = "linear-gradient(#2121212d,rgb(255, 255, 255))";
 }
 
 seemore.onmouseout = function()
 {
     sm_ob1.style.color = "rgba(0, 0, 0, 0.5)";
     sm_ob2.style.fill = "rgba(0, 0, 0, 0.5)";
+    seemore.style.backgroundImage = "linear-gradient(#2121212d,rgba(255, 255, 255, 0.5))";
 }
 
 seemore.onclick = function()
@@ -204,9 +206,17 @@ seemore.onclick = function()
 var tags = document.querySelectorAll(".tags p");
 
 function tag_selected(id)
-{
-    id.style.color = "#0D7377";
-    id.style.backgroundColor = "#14FFEC";
+{   
+    if (id.style.color != "white")
+    {
+        id.style.color = "white";
+        id.style.backgroundColor = "#0D7377";
+    }
+    else 
+    {
+        id.style.color = "#0D7377";
+        id.style.backgroundColor = "#14FFEC";
+    }
 
     for (var i=0;i<tags.length;i++)
     {

@@ -989,7 +989,7 @@ body
         margin:0px auto 0px auto;
         cursor: pointer;
         background-image: linear-gradient(#2121212d,rgba(255, 255, 255, 0.5));
-        padding:15px 39% 5px 39%;
+        padding:15px 39.5% 5px 39.5%;
         border-radius: 5px;
         border-bottom: 3px solid rgba(0, 0, 0, 1);
         position: relative;
@@ -1048,11 +1048,5 @@ body
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color:#0D7377;
         cursor: pointer;
-    }
-
-    .tags p:hover 
-    {
-        background-color: #14FFEC;
-        color:#0D7377;
     }
 }
