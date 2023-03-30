@@ -666,8 +666,8 @@ body
     width:30px;
     height:30px;
     margin:0;
-    fill:#323232;
-    background-color:#0D7377;
+    fill:black;
+    background-color:#14FFEC;
     border-radius: 50px;
     padding:10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -972,8 +972,8 @@ body
         right:10px;
         font-size:20px;
         font-family: coco;
-        color:#323232;
-        background-color:#0D7377;
+        color:black;
+        background-color:#14FFEC;
         padding:5px;
         transition: 0.3s;
         visibility: hidden;
@@ -1006,7 +1006,7 @@ body
         height:auto;
         font-size:20px;
         font-family: sans-serif;
-        color:#212121;
+        color:rgba(0, 0, 0, 0.5);
         margin:0;
     }
 
@@ -1016,6 +1016,6 @@ body
         width:25px;
         height:25px;
         margin:auto 0px auto 20px;
-        fill:#212121;
+        fill:rgba(0, 0, 0, 0.5);
     } 
 }

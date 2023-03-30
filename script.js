@@ -166,3 +166,19 @@ notif.onclick = function()
 {
     window.alert("You must Log-In first!");
 }
+
+var seemore = document.getElementsByClassName("seemore")[0];
+var sm_ob1 = document.querySelectorAll(".seemore p")[0];
+var sm_ob2 = document.querySelectorAll(".seemore svg")[0];
+
+seemore.onmouseover = function()
+{
+    sm_ob1.style.color = "black";
+    sm_ob2.style.fill = "black";
+}
+
+seemore.onmouseout = function()
+{
+    sm_ob1.style.color = "rgba(0, 0, 0, 0.5)";
+    sm_ob2.style.fill = "rgba(0, 0, 0, 0.5)";
+}
