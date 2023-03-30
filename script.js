@@ -153,12 +153,12 @@ var hover = document.getElementsByClassName("hover")[0];
 
 add.onmouseover = function()
 {
-    hover.style.visibility = "visible";
+    hover.style.display = "block";
 }
 
 add.onmouseout = function()
 {
-    hover.style.visibility = "hidden";
+    hover.style.display = "none";
 }
 
 var notif = document.getElementsByClassName("pcopt")[4];
@@ -181,4 +181,22 @@ seemore.onmouseout = function()
 {
     sm_ob1.style.color = "rgba(0, 0, 0, 0.5)";
     sm_ob2.style.fill = "rgba(0, 0, 0, 0.5)";
+}
+
+seemore.onclick = function()
+{
+    if (row_of_posts[2].style.height != "auto")
+    {
+        row_of_posts[1].style.height = "auto";
+        row_of_posts[2].style.height = "auto";
+        sm_ob1.innerHTML = "See Less";
+        sm_ob2.style.transform = "rotate(180deg)";
+    }
+    else 
+    {
+        row_of_posts[1].style.height = "250px";
+        row_of_posts[2].style.height = "0";
+        sm_ob1.innerHTML = "See More";
+        sm_ob2.style.transform = "none";
+    }
 }
