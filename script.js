@@ -160,3 +160,9 @@ add.onmouseout = function()
 {
     hover.style.visibility = "hidden";
 }
+
+var notif = document.getElementsByClassName("pcopt")[4];
+notif.onclick = function()
+{
+    window.alert("You must Log-In first!");
+}

@@ -980,4 +980,42 @@ body
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         border-radius: 5px 5px 0px 5px;
     }
+
+    .seemore 
+    {
+        display:flex;
+        width:fit-content;
+        height:auto;
+        margin:20px auto 0px auto;
+        cursor: pointer;
+        background-image: linear-gradient(#212121,rgba(255, 255, 255, 0.5));
+        padding:5px 39% 5px 39%;
+        border-radius: 5px;
+        border-bottom: 3px solid rgba(0, 0, 0, 0.5);
+    }
+
+    .seemore:hover 
+    {
+        background-color: white;
+    }
+
+    .seemore p
+    {
+        display:flex;
+        width:auto;
+        height:auto;
+        font-size:20px;
+        font-family: sans-serif;
+        color:#212121;
+        margin:0;
+    }
+
+    .seemore svg
+    {
+        display:flex;
+        width:25px;
+        height:25px;
+        margin:auto 0px auto 20px;
+        fill:#212121;
+    } 
 }
