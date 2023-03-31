@@ -1,0 +1,125 @@
+body 
+{
+    display: flex;
+    width:100%;
+    height: auto;
+    margin:0;
+    font-size: 0;
+    background-color:#212121;
+}
+
+.main 
+{
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    height:auto;
+    margin:50% auto 0px auto;
+}
+
+.title , .desc
+{
+    display: flex;
+    width:auto;
+    height:auto;
+    font-size: 40px;
+    font-family:coco;
+    color:white;
+    margin:0px auto 0px 5px;
+}
+
+.desc 
+{
+    font-size: 17px;
+    margin:5px auto 0px 10px;
+    color:#0D7377;
+}
+
+form 
+{
+    display:flex;
+    flex-direction: column;
+    width:fit-content;
+    height:auto;
+    margin:10px 0px 0px 0px;
+}
+
+form p 
+{
+    display: flex;
+    width:auto;
+    height:auto;
+    font-size: 25px;
+    font-family:lnk;
+    color:#14FFEC;
+    margin:0px auto 0px 0px;
+}
+
+.div1 
+{
+    margin:10px 0px 0px 0px;
+    background-color:#323232;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.inp 
+{
+    display:flex;
+    width: fit-content;
+    height:auto;
+    margin:10px 0px 0px 0px;
+}
+
+.inp svg 
+{
+    display:flex;
+    width:30px;
+    height:30px;
+    fill:coral;
+    margin:0px 20px 0px 0px;
+}
+
+input[type="text"]
+{
+    background:none;
+    width:250px;
+    font-family:coco;
+    color:white;
+    height:25px;
+    border:none;
+    font-size: 20px;
+}
+
+input:focus
+{
+    outline: none;
+}
+
+input[type="submit"]
+{
+    display: flex;
+    width:auto;
+    height:auto;
+    margin:25px auto 0px auto;
+    font-size:30px;
+    font-family: lnk;
+    background-color:#8F71FF;
+    color:#0D7377;
+    border:none;
+    border-radius: 5px;
+    padding:5px 10px 5px 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.finale 
+{
+    display:flex;
+    width:auto;
+    height:auto;
+    margin:30px auto 0px auto;
+    font-size:15px;
+    font-family: coco;
+    color:rgba(255, 255, 255, 0.5);
+}
